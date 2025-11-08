@@ -1,0 +1,35 @@
+
+.para{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    height: 68px;
+    padding-top: 60px;
+}
+.logo{
+    display: flex;
+    width:219.54px ;
+    height: 56px;
+    padding-top: 60px;
+    padding-left: 100px;
+    gap: 10px;
+}
+#button{
+    height:68px ;
+    width:231px ;
+    padding: 20px 35px 20px 35px;
+    border: 1px;
+    border-radius: 14px;
+}
+@media screen and(max width:1024px) {
+.para{
+     display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 30px;
+    gap: 222px;
+}
+}
+}
